@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("playerTransform transform.position:" + playerTransform.position);
+        //Debug.Log("playerTransform transform.position:" + playerTransform.position);
         playerTransform.position = playerTransform.position + movementDirection * speed * Time.deltaTime;
     }
 }
